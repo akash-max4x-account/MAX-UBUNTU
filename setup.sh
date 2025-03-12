@@ -84,7 +84,7 @@ setup_vnc() {
 	if [[ -d "$CURR_DIR/distro" ]] && [[ -e "$CURR_DIR/distro/vncstart" ]]; then
 		cp -f "$CURR_DIR/distro/vncstart" "$UBUNTU_DIR/usr/local/bin/vncstart"
 	else
-		downloader "$CURR_DIR/vncstart" "https://raw.githubusercontent.com/akash-max4x-1/MAX-UBUNTU/master/distro/vncstart"
+		downloader "$CURR_DIR/vncstart" "https://raw.githubusercontent.com/akash-max4x-account/MAX-UBUNTU/master/distro/vncstart"
 		mv -f "$CURR_DIR/vncstart" "$UBUNTU_DIR/usr/local/bin/vncstart"
 	fi
 
@@ -105,7 +105,7 @@ permission() {
 	if [[ -d "$CURR_DIR/distro" ]] && [[ -e "$CURR_DIR/distro/user.sh" ]]; then
 		cp -f "$CURR_DIR/distro/user.sh" "$UBUNTU_DIR/root/user.sh"
 	else
-		downloader "$CURR_DIR/user.sh" "https://raw.githubusercontent.com/akash-max4x-1/MAX-UBUNTU/master/distro/user.sh"
+		downloader "$CURR_DIR/user.sh" "https://raw.githubusercontent.com/akash-max4x-account/MAX-UBUNTU/master/distro/user.sh"
 		mv -f "$CURR_DIR/user.sh" "$UBUNTU_DIR/root/user.sh"
 	fi
 	chmod +x $UBUNTU_DIR/root/user.sh
