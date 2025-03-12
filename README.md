@@ -32,7 +32,7 @@
 
   - `yes | pkg up`
   - `pkg install git wget -y`
-  - `git clone --depth=1 https://github.com/akash-max4x-1/MAX-UBUNTU.git`
+  - `git clone --depth=1 https://github.com/akash-max4x-account/MAX-UBUNTU.git`
   - `cd MAX-UBUNTU`
   - `bash setup.sh`
 
