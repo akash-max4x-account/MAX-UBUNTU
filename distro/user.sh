@@ -44,7 +44,7 @@ login() {
         cp /data/data/com.termux/files/home/MAX-UBUNTU/distro/gui.sh /home/$user/gui.sh
         chmod +x /home/$user/gui.sh
     else
-        wget -q --show-progress https://raw.githubusercontent.com/akash-max4x-1/MAX-UBUNTU/master/distro/gui.sh
+        wget -q --show-progress https://raw.githubusercontent.com/akash-max4x-account/MAX-UBUNTU/master/distro/gui.sh
         mv -vf gui.sh /home/$user/gui.sh
         chmod +x /home/$user/gui.sh
     fi
