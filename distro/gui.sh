@@ -21,7 +21,7 @@ banner() {
 		${Y}    ▖ ▗▖▗▄▄▖ ▗▖ ▗▖▗▖  ▗▖▗▄▄▄▖▗▖ ▗▖    ▗▖  ▗▖ ▗▄▖ ▗▖  ▗▖
 		${C}    ▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▐▛▚▖▐▌  █  ▐▌ ▐▌    ▐▛▚▞▜▌▐▌ ▐▌ ▝▚▞▘ 
 		${G}    ▌ ▐▌▐▛▀▚▖▐▌ ▐▌▐▌ ▝▜▌  █  ▐▌ ▐▌    ▐▌  ▐▌▐▛▀▜▌  ▐▌  
-        ${G}    ▚▄▞▘▐▙▄▞▘▝▚▄▞▘▐▌  ▐▌  █  ▝▚▄▞▘    ▐▌  ▐▌▐▌ ▐▌▗▞▘▝▚ 
+                ${G}    ▚▄▞▘▐▙▄▞▘▝▚▄▞▘▐▌  ▐▌  █  ▝▚▄▞▘    ▐▌  ▐▌▐▌ ▐▌▗▞▘▝▚ 
 	EOF
 	echo -e "${G}     A MAX version of UBUNTU for Termux\n"
 }
@@ -251,11 +251,11 @@ config() {
 	{ banner; sleep 1; cd $temp_folder; }
 
 	echo -e "${R} [${W}-${R}]${C} Downloading Required Files..\n"${W}
-	downloader "fonts.tar.gz" "https://github.com/akash-max4x-1/MAX-UBUNTU/releases/download/config/fonts.tar.gz"
-	downloader "icons.tar.gz" "https://github.com/akash-max4x-1/MAX-UBUNTU/releases/download/config/icons.tar.gz"
-	downloader "wallpaper.tar.gz" "https://github.com/akash-max4x-1/MAX-UBUNTU/releases/download/config/wallpaper.tar.gz"
-	downloader "gtk-themes.tar.gz" "https://github.com/akash-max4x-1/MAX-UBUNTU/releases/download/config/gtk-themes.tar.gz"
-	downloader "ubuntu-settings.tar.gz" "https://github.com/akash-max4x-1/MAX-UBUNTU/releases/download/config/ubuntu-settings.tar.gz"
+	downloader "fonts.tar.gz" "https://github.com/akash-max4x-account/MAX-UBUNTU/releases/download/config/fonts.tar.gz"
+	downloader "icons.tar.gz" "https://github.com/akash-max4x-account/MAX-UBUNTU/releases/download/config/icons.tar.gz"
+	downloader "wallpaper.tar.gz" "https://github.com/akash-max4x-account/MAX-UBUNTU/releases/download/config/wallpaper.tar.gz"
+	downloader "gtk-themes.tar.gz" "https://github.com/akash-max4x-account/MAX-UBUNTU/releases/download/config/gtk-themes.tar.gz"
+	downloader "ubuntu-settings.tar.gz" "https://github.com/akash-max4x-account/MAX-UBUNTU/releases/download/config/ubuntu-settings.tar.gz"
 
 	echo -e "${R} [${W}-${R}]${C} Unpacking Files..\n"${W}
 	tar -xvzf fonts.tar.gz -C "/usr/local/share/fonts/"
